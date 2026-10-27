@@ -1,4 +1,4 @@
 [submodule "yubi-core"]
 	path = yubi-core
-	url = https://github.com/airoa-org/yubi-core.git
+	url = https://github.com/K-IClabo/yubi-core.git
 	branch = main

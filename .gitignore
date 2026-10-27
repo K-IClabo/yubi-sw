@@ -59,3 +59,6 @@ yubi_bringup/config/_runtime/
 .Trashes
 ehthumbs.db
 Thumbs.db
+# Local tools / binaries (not tracked)
+*.AppImage
+*.apk
