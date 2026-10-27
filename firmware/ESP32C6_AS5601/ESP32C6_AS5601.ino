@@ -5,7 +5,7 @@
 static constexpr uint32_t I2C_CLOCK_HZ = 400000;
 // Side + 3-digit index: "L###" for the left gripper, "R###" for the right,
 // e.g. "L003" / "R003".
-static const char* DEVICE_ID = "CHANGE HERE";
+static const char* DEVICE_ID = "L001";
 
 
 AS5601 encoder(Wire, 0x36, false);

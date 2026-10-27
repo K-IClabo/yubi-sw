@@ -37,6 +37,11 @@ Each gripper's open/close angle is read by a Seeed XIAO ESP32C6 running the
 AS5601 encoder firmware in [firmware/ESP32C6_AS5601/](firmware/ESP32C6_AS5601).
 Flash it once per gripper board:
 
+```bash
+# [追記]arduinoの開き方
+cd yubi-sw
+./arduino-ide_2.3.10_Linux_64bit.AppImage --no-sandbox
+```
 1. Install the [Arduino IDE](https://www.arduino.cc/en/software/) and add ESP32
    board support, then select the **XIAO_ESP32C6** board (see the
    [Seeed getting-started guide](https://wiki.seeedstudio.com/ja/xiao_esp32c6_getting_started/)).
