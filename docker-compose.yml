@@ -4,7 +4,7 @@ networks:
 
 services:
   minio:
-    image: minio/minio:latest
+    image: pgsty/minio:latest
     container_name: minio
     ports:
       - "9000:9000"
@@ -27,7 +27,7 @@ services:
       - datalake_net
 
   minio-init:
-    image: minio/mc:latest
+    image: pgsty/mc:latest
     container_name: minio-init
     depends_on:
       minio:
